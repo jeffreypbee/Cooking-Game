@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dsjo70wq7ii66"]
-
-[ext_resource type="PackedScene" uid="uid://crj5fq5wv8gh5" path="res://scenes/ingredient.tscn" id="1_24jy5"]
-
-[node name="IngredientOnMap" type="Area2D"]
-
-[node name="Ingredient" parent="." instance=ExtResource("1_24jy5")]
