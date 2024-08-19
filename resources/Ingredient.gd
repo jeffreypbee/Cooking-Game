@@ -4,4 +4,4 @@ class_name Ingredient extends Resource
 var name : String
 
 @export
-var sprite : String
+var sprite : Texture2D
