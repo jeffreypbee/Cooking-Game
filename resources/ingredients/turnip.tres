@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://12jmwoq5ipsr"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://12jmwoq5ipsr"]
 
-[ext_resource type="Script" path="res://resources/Ingredient.gd" id="1_871s7"]
+[ext_resource type="Script" path="res://resources/Ingredient.gd" id="1_ihahv"]
+[ext_resource type="Texture2D" uid="uid://5fpcwq3stjci" path="res://art/sprites/Turnip.png" id="2_g3en4"]
 
 [resource]
-script = ExtResource("1_871s7")
-name = ""
+script = ExtResource("1_ihahv")
+name = "Turnip"
+sprite = ExtResource("2_g3en4")

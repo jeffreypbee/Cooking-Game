@@ -1,7 +1,9 @@
-[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://dgv1egvdutv7n"]
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://dgv1egvdutv7n"]
 
-[ext_resource type="Script" path="res://resources/Ingredient.gd" id="1_dsalh"]
+[ext_resource type="Script" path="res://resources/Ingredient.gd" id="1_babef"]
+[ext_resource type="Texture2D" uid="uid://blve8d6uwofbr" path="res://art/sprites/Tomato.png" id="2_esise"]
 
 [resource]
-script = ExtResource("1_dsalh")
-name = ""
+script = ExtResource("1_babef")
+name = "Tomato"
+sprite = ExtResource("2_esise")
