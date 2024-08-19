@@ -18,4 +18,7 @@ func spawn_ingredient() -> void:
 
 
 func _on_timer_timeout() -> void:
-	spawn_ingredient()
+	if ingredient :
+		spawn_ingredient()
+	else :
+		print("No Ingredient Set")
