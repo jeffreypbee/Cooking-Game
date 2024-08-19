@@ -1,0 +1,7 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=2 format=3 uid="uid://dgv1egvdutv7n"]
+
+[ext_resource type="Script" path="res://resources/Ingredient.gd" id="1_dsalh"]
+
+[resource]
+script = ExtResource("1_dsalh")
+name = ""
