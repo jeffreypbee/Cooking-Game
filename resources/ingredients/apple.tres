@@ -1,0 +1,9 @@
+[gd_resource type="Resource" script_class="Ingredient" load_steps=3 format=3 uid="uid://d04xb2i1f7b52"]
+
+[ext_resource type="Script" path="res://resources/Ingredient.gd" id="1_nakwv"]
+[ext_resource type="Texture2D" uid="uid://47bmvvn81qeu" path="res://art/sprites/Apple.png" id="2_f47xc"]
+
+[resource]
+script = ExtResource("1_nakwv")
+name = "Apple"
+sprite = ExtResource("2_f47xc")
