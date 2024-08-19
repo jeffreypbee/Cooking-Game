@@ -6,4 +6,5 @@
 [node name="Main" type="Node"]
 
 [node name="IngredientSpawner" parent="." instance=ExtResource("1_n1uyl")]
+position = Vector2(360, 167)
 ingredient = ExtResource("2_hivm8")
