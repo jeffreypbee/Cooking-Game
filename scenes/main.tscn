@@ -1,3 +1,9 @@
-[gd_scene format=3 uid="uid://c62gt34yuhv18"]
+[gd_scene load_steps=3 format=3 uid="uid://c62gt34yuhv18"]
+
+[ext_resource type="PackedScene" uid="uid://cbscbo31qslh1" path="res://scenes/ingredient_spawner.tscn" id="1_n1uyl"]
+[ext_resource type="Resource" uid="uid://d04xb2i1f7b52" path="res://resources/ingredients/apple.tres" id="2_hivm8"]
 
 [node name="Main" type="Node"]
+
+[node name="IngredientSpawner" parent="." instance=ExtResource("1_n1uyl")]
+ingredient = ExtResource("2_hivm8")
