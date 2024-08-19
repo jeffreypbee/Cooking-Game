@@ -10,9 +10,14 @@ func _ready() -> void:
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
 func _process(delta: float) -> void:
+	# Update Ingredient Sprite
 	if ingredient :
 		if $IngredientSprite.texture != ingredient.sprite :
 			$IngredientSprite.texture = ingredient.sprite
+	
+	# Update Countdown
+	var countdown = floor($Timer.time_left) + 1
+	$Countdown.text = str(countdown)
 
 
 func spawn_ingredient() -> void:
