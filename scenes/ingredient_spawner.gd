@@ -14,4 +14,8 @@ func _process(delta: float) -> void:
 
 
 func spawn_ingredient() -> void:
-	print(ingredient.name)
+	print("ingredient.name")
+
+
+func _on_timer_timeout() -> void:
+	spawn_ingredient()
