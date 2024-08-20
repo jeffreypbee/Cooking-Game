@@ -7,3 +7,4 @@
 script = ExtResource("1_nakwv")
 name = "Apple"
 sprite = ExtResource("2_f47xc")
+spawn_time = 7

@@ -7,3 +7,4 @@
 script = ExtResource("1_babef")
 name = "Tomato"
 sprite = ExtResource("2_esise")
+spawn_time = 3

@@ -5,3 +5,6 @@ var name : String
 
 @export
 var sprite : Texture2D
+
+@export
+var spawn_time : int = 5
