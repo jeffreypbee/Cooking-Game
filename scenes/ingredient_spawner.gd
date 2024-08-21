@@ -3,8 +3,16 @@ extends Node
 @export
 var ingredient : Ingredient
 
+@export
+var active : bool = false
+
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
+	activate()
+
+
+func activate() -> void:
+	active = true
 	start_timer()
 
 
@@ -21,8 +29,9 @@ func _process(delta: float) -> void:
 			$IngredientSprite.texture = ingredient.sprite
 	
 	# Update Countdown
-	var countdown = floor($Timer.time_left) + 1
-	$Countdown.text = str(countdown)
+	if active:
+		var countdown = floor($Timer.time_left) + 1
+		$Countdown.text = str(countdown)
 
 
 func spawn_ingredient() -> void:
