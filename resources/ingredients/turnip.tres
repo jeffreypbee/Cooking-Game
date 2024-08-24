@@ -5,5 +5,6 @@
 
 [resource]
 script = ExtResource("1_ihahv")
+spawn_time = 5
 name = "Turnip"
 sprite = ExtResource("2_g3en4")
