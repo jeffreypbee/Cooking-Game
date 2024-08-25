@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://m1dd8h4mbpse"]
+
+[node name="CollectionBox" type="Node2D"]
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+color = Color(0.356863, 0.239216, 0.196078, 1)
+polygon = PackedVector2Array(-47, 16, 54, 16, 54, -29, -49, -29)
