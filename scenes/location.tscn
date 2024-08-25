@@ -1,6 +1,7 @@
-[gd_scene load_steps=2 format=3 uid="uid://cwvy72arnvext"]
+[gd_scene load_steps=3 format=3 uid="uid://cwvy72arnvext"]
 
 [ext_resource type="Script" path="res://scripts/location.gd" id="1_i2urg"]
+[ext_resource type="PackedScene" uid="uid://m1dd8h4mbpse" path="res://scenes/collection_box.tscn" id="2_41qys"]
 
 [node name="Location" type="Node2D"]
 script = ExtResource("1_i2urg")
@@ -8,3 +9,5 @@ script = ExtResource("1_i2urg")
 [node name="NameLabel" type="Label" parent="."]
 offset_right = 40.0
 offset_bottom = 23.0
+
+[node name="CollectionBox" parent="." instance=ExtResource("2_41qys")]
