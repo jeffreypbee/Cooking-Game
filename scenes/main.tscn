@@ -1,16 +1,13 @@
-[gd_scene load_steps=6 format=3 uid="uid://c62gt34yuhv18"]
+[gd_scene load_steps=7 format=3 uid="uid://c62gt34yuhv18"]
 
 [ext_resource type="PackedScene" uid="uid://cbscbo31qslh1" path="res://scenes/ingredient_spawner.tscn" id="1_n1uyl"]
 [ext_resource type="Resource" uid="uid://d04xb2i1f7b52" path="res://resources/ingredients/apple.tres" id="2_hivm8"]
 [ext_resource type="Resource" uid="uid://dgv1egvdutv7n" path="res://resources/ingredients/tomato.tres" id="3_7gfq2"]
 [ext_resource type="Resource" uid="uid://bj57b66w88eva" path="res://resources/ingredients/honey.tres" id="4_eniqy"]
 [ext_resource type="Resource" uid="uid://12jmwoq5ipsr" path="res://resources/ingredients/turnip.tres" id="5_ypbpx"]
+[ext_resource type="PackedScene" uid="uid://cwvy72arnvext" path="res://scenes/location.tscn" id="6_3y435"]
 
 [node name="Main" type="Node"]
-
-[node name="AppleSpawner" parent="." instance=ExtResource("1_n1uyl")]
-position = Vector2(360, 167)
-ingredient = ExtResource("2_hivm8")
 
 [node name="TomatoSpawner" parent="." instance=ExtResource("1_n1uyl")]
 position = Vector2(472, 147)
@@ -23,3 +20,10 @@ ingredient = ExtResource("4_eniqy")
 [node name="TurnipSpawner" parent="." instance=ExtResource("1_n1uyl")]
 position = Vector2(288, 174)
 ingredient = ExtResource("5_ypbpx")
+
+[node name="Orchard" parent="." instance=ExtResource("6_3y435")]
+position = Vector2(163, 260)
+location_name = "Orchard"
+
+[node name="AppleSpawner" parent="Orchard" instance=ExtResource("1_n1uyl")]
+ingredient = ExtResource("2_hivm8")
