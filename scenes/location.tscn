@@ -7,7 +7,10 @@
 script = ExtResource("1_i2urg")
 
 [node name="NameLabel" type="Label" parent="."]
-offset_right = 40.0
-offset_bottom = 23.0
+offset_left = -20.0
+offset_top = -35.0
+offset_right = 20.0
+offset_bottom = -12.0
 
 [node name="CollectionBox" parent="." instance=ExtResource("2_41qys")]
+position = Vector2(0, 47)
